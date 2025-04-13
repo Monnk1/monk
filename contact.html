@@ -80,8 +80,7 @@ marmoset monkeys for sale gumtree, marmoset monkey for sale georgia, marmoset mo
                   </div>
                 </div>
                 <div class="contact-col">
-                    <form action="https://api.web3forms.com/submit" method="POST">
-                    <input type="hidden" name="access_key" value="1fcd82a9-ea0a-4902-89d7-b9d6a3a79dc0">
+                    
                     <input type="hidden" name="subject" value="FINGER MONKEY">
                     <input type="hidden" name="from_name" value="New Submission">
                     <h4>Name</h4>
@@ -100,7 +99,6 @@ marmoset monkeys for sale gumtree, marmoset monkey for sale georgia, marmoset mo
                     <h4>Message</h4>
                     <textarea rows="8" name="Message" placeholder="Type here..." required></textarea>
                     <h5>We look forward to pairing you with your new companion 🐒</h5><br>
-                    <div class="h-captcha" data-captcha="true"></div>
                     <button type="submit" class="hero-btn red-btn">Submit Form</button>
                     </form>
                 </div>
@@ -148,20 +146,5 @@ marmoset monkeys for sale gumtree, marmoset monkey for sale georgia, marmoset mo
      navLinks.style.right = "-200px";
  }
 </script> 
-<script src="https://web3forms.com/client/script.js" async defer></script>
-  <script>
-const form = document.getElementById('YOUR_FORM_ID');
-
-form.addEventListener('submit', function(e) {
-
-    const hCaptcha = form.querySelector('textarea[name=h-captcha-response]').value;
-
-    if (!hCaptcha) {
-        e.preventDefault();
-        alert("Please fill out captcha field")
-        return
-    }
-});
-</script>
 </body>
 </html>    
