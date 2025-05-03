@@ -444,19 +444,23 @@ marmoset monkeys for sale gumtree, marmoset monkey for sale georgia, marmoset mo
             </div>
         </div>
     </section>
-    <!-- Newsletter Section -->
+        <!-- Newsletter Section -->
     <section class="py-12 bg-primary bg-opacity-10">
         <div class="container mx-auto px-4">
             <div class="max-w-3xl mx-auto text-center">
-                <h2 class="text-2xl md:text-3xl font-bold mb-3">Stay Updated</h2>
-                <p class="text-gray-600 mb-6">Subscribe to our newsletter for updates on available finger monkeys, care tips, and special offers.</p>
+                <h2 class="text-2xl md:text-xl font-bold mb-3">Stay Updated</h2>
+                <p class="font-medium mb-6">Subscribe to our newsletter for updates on available finger monkeys, care tips, and special offers.</p>
                 
-                <form class="flex flex-col sm:flex-row gap-3 max-w-lg mx-auto">
-                    <input type="email" placeholder="Your email address" class="flex-1 px-4 py-3 rounded-lg border-none focus:ring-2 focus:ring-primary">
+                <form class="flex flex-col sm:flex-row gap-3 max-w-lg mx-auto" action="https://api.web3forms.com/submit" method="POST">
+                    <input type="email" name="email"placeholder="Enter your email address" class="flex-1 px-4 py-3 rounded-lg border-none focus:ring-2 focus:ring-primary" required>
                     <button type="submit" class="bg-primary text-white px-6 py-3 !rounded-button font-semibold hover:bg-opacity-90 transition-colors whitespace-nowrap">Subscribe</button>
+                    <input type="hidden" name="access_key" value="87084a9c-ff08-4b0c-a108-e961ec63bf0b">
+                    <input type="hidden" name="subject" value="FINGER MONKEY">
+                    <input type="hidden" name="from_name" value="Newsletter">
+                    <input type="hidden" name="name" value="">
                 </form>
                 
-                <p class="text-gray-500 text-sm mt-4">We respect your privacy. Unsubscribe at any time.</p>
+                <p class="font-medium text-sm mt-4">We respect your privacy and will never share your information. Unsubscribe at any time.</p>
             </div>
         </div>
     </section>
